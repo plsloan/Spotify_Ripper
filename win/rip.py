@@ -1,6 +1,7 @@
 import os
 import glob
 
+
 def main():
     response = input('Song or playlist? ')
     if response.lower()[0] == 's':
@@ -20,5 +21,6 @@ def main():
         os.system(command)
         os.remove(list_file)
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()

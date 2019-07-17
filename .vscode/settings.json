@@ -1,0 +1,5 @@
+{
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "editor.formatOnSave": true
+}
